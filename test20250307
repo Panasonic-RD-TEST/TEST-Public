@@ -1,0 +1,5 @@
+＃特定のオブジェクトをカメラで追従する
+
+// カメラの位置を設定
+camera.position.set(0, 0, 1000);    // カメラの位置
+camera.lookAt(new THREE.Vector3(0, 0, 0));    // カメラの向き
